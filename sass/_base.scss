@@ -29,7 +29,12 @@ html{
 
 body{
     font-family: $font-primary;
-    color: $color-primary;
+    color: $color-grey-dark-2;
     font-weight: 380;
     line-height: 1.8;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 }
